@@ -1,6 +1,6 @@
-name: GitHub Actions copy preprod S3 bucket to prod
+name: Prod push
 run-name: ${{ github.actor }} is deploying anthonius.net 🚀
-on: workflow_dispatch 
+on: workflow_dispatch
 jobs:
   deploy:
     runs-on: ubuntu-latest
