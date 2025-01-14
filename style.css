@@ -207,6 +207,28 @@ a {
   border-bottom: 28px solid transparent;
   border-left: 28px solid #fff;
 }
+.middle .job p .list {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px 20px 20px;
+  color: #333;
+  text-align: justify;
+  border-top: solid 1px #bfbfbf;
+  border-bottom: solid 1px #bfbfbf;
+  border-right: solid 1px #bfbfbf;
+  border-left: solid 1px #bfbfbf;
+  position: relative;
+  text-shadow: 0 1px 1px #fff;
+  max-height: 250px;
+}
+.middle .job p .list:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  width: 0;
+  height: 0;
+}
 
 .skills {
   width: 49%;
